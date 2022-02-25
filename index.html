@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Web 3 Search</title>
+</head>
+<body>
+    <header class="header-container">
+        <figure class="logo-container">
+            <img src="./logo/web.dev.svg" alt="logo" class="logo-container__img">
+        </figure>
+    
+        <nav class="navbar">
+            <ul class="navbar__list">
+                <li class="navbar__list-item">Images</li>
+                <li class="navbar__list-item">Videos</li>
+                <li class="navbar__list-item dots"> ... 
+                    <ul class="overflow__menu">
+                        <li class="overflow__menu-list">Article</li>
+                        <li class="overflow__menu-list">News</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="navbar__list">
+                <li class="navbar__list-item">Español</li>
+                <li class="navbar__list-item">User</li>
+                <img src="./icons/user.png" alt="user-icon" class="user-icon">
+                <img src="./icons/applications.png" alt="hamburguer-icon" class="apps-icon">
+            </ul>
+        </nav>
+    </header>
+    <main class="main-container">
+        <section class="search-container">
+            <form action="get" class="form-container">
+                <input type="text" name="search" id="search" placeholder="Your search here..." class="search-container__input">
+                <div class="img-search__container">
+                     <a href="#"><img src="./icons/microphone.png" alt="mic-icon"></a>
+                    <a href="#"><img src="./icons/picture.png" alt="picture-icon"></a>
+                    <a href="#"><img src="./icons/search.png" alt="search-icon"></a>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
